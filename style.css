@@ -44,19 +44,23 @@ a {
     text-decoration: none;
 }
 
-p {
+#opening {
     color: whitesmoke;
     font-size: 25px;
     display: flex;
     justify-content: flex-end;
 }
 
+#info {
+    color: lightblue;
+    font-size: 25px;
+}
+
 h4 {
-    color: whitesmoke;
+    color: aqua;
     font-family: Helvetica;
     background-color: #272D33;
     font-size: 16px;
-    padding: 0px;
     display: flex;
     justify-content: flex-end;
 }
@@ -64,20 +68,7 @@ h4 {
 h5 {
     font-family: Helvetica;
     background-color: #272D33;
-    font-size: 12px;
-    padding: 0px;
-}
-
-#first, #second, #third {
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-}
-
-#second {
-    display: none;
-}
-
-#third {
-    display: none;
+    color: aqua;
+    font-size: 20px;
+    margin: 5px;
 }

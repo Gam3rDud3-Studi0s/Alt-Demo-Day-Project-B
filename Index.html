@@ -3,66 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPersonalWebsite</title>
+    <title>My Multi-Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="#home" id="home-link"><div class="items">Home</div></a>
-        <a href="#explore" id="explore-link"><div class="items">Explore</div></a>
         <a href="#now" id="now-link"><div class="items">Now</div></a>
+        <a href="#work" id="work-link"><div class="items">Work</div></a>
+        <a href="#fun" id="fun-link"><div class="items">Fun</div></a>
         <a href="#future" id="future-link"><div class="items">Future</div></a>
     </nav>
     
     <!-- Section 1 -->
-    <div id="home" class="section">
+    <div id="now" class="section">
         <h1>Who am I?</h1>
-        <p>Hi, I'm Sean Williams. I am an aspiring game developer and YouTuber.</p>
+        <p id="opening">Hi, I'm Sean Williams. I am an aspiring game developer and YouTuber, who has recently <br> learned about HTML, CSS, JS, Firebase, and more.</p>
     </div>
 
     <!-- Section 2 -->
-    <div id="explore" class="section2">
+    <div id="work" class="section2">
         <h2>Explore My Work</h2>
-        <p>Check out my latest projects and games! Also check out some games I love to play, enjoy!</p>
+        <p id="opening">Check out my latest volunteer work, organizations I've been involved in, and more!</p>
+        <h4>Click the images for more info!</h4>
+        <a href="https://www.houstonkappaleague.com/" target="_blank"><img src="https://static.wixstatic.com/media/ffc90c_4252d0121e1f4042bd82828b6f68ee19~mv2.jpeg/v1/fill/w_256,h_204,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/KL-Crisom-COA.jpeg" width="250px"></img></a>
+        <a href="https://allstarcode.org/" target="_blank"><img src="https://tse4.mm.bing.net/th/id/OIP.WQ37VM8FAPvFmWbqo3jg-QHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="350"></img></a>
+        <ol>
+        <h5>From left to right:</h5>
+        <li>Houston Kappa League</li>
+        <li>All Star Code</li>
+        </ol>
+        <br>
+        <p id="info">Houston Kappa League is a program that help develop young men in their community. All Star Code is what got me here today. They teach code, like JavaScript and HTML.</p>
+    </div>
+    
+    <!-- Section 3 -->
+    <div id="fun" class="section3">
+        <h2>What's Fun to Me?</h2>
+        <p id="opening">Check out some games and activites I do for fun!</p>
         <h4>Click the images for more info!</h4>
         <a href="https://cult-of-the-lamb.fandom.com/wiki/Cult_of_the_Lamb" target="_blank"><img src="images/CoTL.jpg" width="350"></img></a>
         <a href="https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s_(Franchise)" target="_blank"><img src="images/FNaF.webp" width="200"></img></a>
         <a href="https://fortnite.fandom.com/wiki/Fortnite" target="_blank"><img src="images/Fortnite.jpg" width="355"></img></a>
         <a href="https://minecraft-archive.fandom.com/wiki/Minecraft" target="_blank"><img src="images/Minecraft.jpg" width="355"></img></a>
         <ol>
-        <h5>From left to right:</h5>
+        <h5>Some games I play! From left to right:</h5>
         <li>Cult of The Lamb</li>
         <li>Five Nights at Freddy's</li>
         <li>Fortnite</li>
         <li>Minecraft</li>
         </ol>
-    </div>
-    
-    <!-- Section 3 -->
-    <div id="now" class="section3">
-        <h2>What I'm Doing Now</h2>
-        <p>Currently learning HTML, CSS, and Unity game development.</p>
+        <ul>
+        <h5>Other activities I do:</h5>
+        <li>Tennis</li>
+        <li>Golf</li>
+        <li>Travel</li>
+        <li>School news</li>
+        <li>Little stories</li>
+        <li>Game development</li>
+        <li>Youtube videos</li>
+        </ul>
+        <br>
+        <p id="info">I only play tennis and golf for fun. In this family, we travel a lot. I have probably been around half the Earth. The school news is pretty neat because you meet a lot of interesting people and it gets you out of your comfort zone. I do a lot of daydreaming and this year I started making a book, and I plan to make more. I started my game development work two years ago but I don't have anything published, same goes for the youtube videos but I started that so many years ago.</p>
     </div>
 
     <!-- Section 4 -->
     <div id="future" class="section4">
         <h2>Future Goals</h2>
-        <p>Publishing my first indie game on Steam.</p>
+        <p id="opening">My plans for the future are college and prosperity. I want to make games and videos <br> people love, games and videos people can feel!</p>
+        <br>
+        <p id="info">I have a college that I'm interested in, so that is going well. The game development and videos are okay but not much serious progress. I believe I can get there though, I know I can!</p>
     </div>
-
-    <br>
-    <br>
-    <div id="first" class="section5">
-    <img src="images/coffee-94.gif" width="100px"></img>
-    </div>
-
-    <div id="second" class="section6">
-    <img src="images/coffee.jpeg" width="100px"></img>
-    </div>
-
-    <div id="third" class="section7">
-    <img src="images/coffee_empty.jpeg" width="100px"></img>
-    </div>
-<script src="script.js"></script>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"
+    ></script>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.8/lib/p5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="firebase.js"></script>
+    <script defer src="main.js"></script>
+    <script src="sketch.js"></script>
 </body>
 </html>
