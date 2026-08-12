@@ -76,7 +76,7 @@ h5 {
 
 /* Section 1 */
 #First_img {
-    margin-left: 700px;
+    margin-left: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -84,7 +84,7 @@ h5 {
 
 /* Section 2 */
 #Sec_img {
-    margin-left: 550px;
+    margin-left: 300px;
 }
 
 #Sec_img_two {
@@ -93,16 +93,16 @@ h5 {
 
 /* Section 3 */
 #Third_img {
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .Third{
-    margin-left: 75px;
+    margin-left: 25px;
 }
 
 /* Section 4 */
 .Four_img {
-    margin-left: 350px;
+    margin-left: 75px;
 }
 
 .Four{
@@ -111,7 +111,7 @@ h5 {
 
 /* Section 5 */
 #Five_img {
-    margin-left: 700px;
+    margin-left: 450px;
     margin-top: 20px;
 }
 
@@ -120,7 +120,130 @@ h5 {
     display: none;
 }
 
-@media(max-width: 414px){
+/* iPhone SE */
+@media(min-width: 375px) and (max-width: 375px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 90px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 10px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 10px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 20px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 70px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 40px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 150px;
+}
+}
+
+/* iPhone XR */
+@media(min-width: 414px) and (max-width: 414px){
     h2{
         font-size: 20px;
     }
@@ -230,6 +353,494 @@ h5 {
 
 #Four_img_one{
     margin-left: 65px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 150px;
+}
+}
+
+/* iPhone 12 Pro */
+@media(min-width: 390px) and (max-width: 390px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 90px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 20px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 10px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 20px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 75px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 40px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 150px;
+}
+}
+
+/* iPhone 14-15 Pro Max */
+@media(min-width: 430px) and (max-width: 430px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 120px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 30px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 20px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 30px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 100px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 65px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 150px;
+}
+}
+
+/* iPhone 16 Pro Max */
+@media(min-width: 440px) and (max-width: 440px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 110px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 35px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 20px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 40px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 100px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 65px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 150px;
+}
+}
+
+/* Pixel 7-10 && Sam Gal S20 Ultra && Sam Gal A51/71 */
+@media(min-width: 412px) and (max-width: 412px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 100px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 20px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 20px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 30px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 80px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 50px;
     width: 120px;
 }
 
