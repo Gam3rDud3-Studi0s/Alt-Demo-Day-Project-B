@@ -96,7 +96,7 @@ h5 {
     margin-left: 150px;
 }
 
-#Third_img_two {
+.Third{
     margin-left: 75px;
 }
 
@@ -105,7 +105,7 @@ h5 {
     margin-left: 350px;
 }
 
-#Four_img_two {
+.Four{
     margin-left: 75px;
 }
 
@@ -115,6 +115,128 @@ h5 {
     margin-top: 20px;
 }
 
+/* Gif */
 #Gif_img_two{
     display: none;
+}
+
+@media(max-width: 414px){
+    h2{
+        font-size: 20px;
+    }
+    
+    body {
+    font-family: Helvetica;
+    background-color: grey;
+    font-size: 9px;
+}
+
+.section, .section2, .section3, .section4 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#opening {
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info {
+    color: lightblue;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: lightskyblue;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: aqua;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Section 1 */
+#First_img {
+    margin-left: 100px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+}
+
+
+/* Section 2 */
+#Sec_img {
+    margin-left: 20px;
+    width: 120px;
+}
+
+#Sec_img_two {
+    margin-left: 20px;
+    width: 170px
+}
+
+/* Section 3 */
+#Third_img {
+    margin-left: 20px;
+    width: 150px;
+}
+
+#Third_img_two {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 88px;
+}
+
+.Third {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/* Section 4 */
+.Four_img {
+    margin-left: 100px;
+    width: 200px;
+}
+
+#Four_img_two {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#Four_img_one{
+    margin-left: 65px;
+    width: 120px;
+}
+
+/* Section 5 */
+#Five_img {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 150px;
+}
 }
