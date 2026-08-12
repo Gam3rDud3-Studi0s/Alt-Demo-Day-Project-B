@@ -2,6 +2,8 @@ let now = document.getElementById('now');
 let work = document.getElementById('work');
 let fun = document.getElementById('fun');
 let future = document.getElementById('future');
+let img = document.getElementById('Gif_img')
+let imgTwo = document.getElementById('Gif_img_two')
 
 let nowLink = document.getElementById('now-link');
 let workLink = document.getElementById('work-link');
@@ -55,3 +57,17 @@ futureLink.onclick = function(event) {
 
     future.classList.remove('hidden');
 };
+
+img.onclick = function(event) {
+    event.preventDefault();
+
+    img.style.display = 'none';
+    imgTwo.style.display = 'inline-block';
+}
+
+imgTwo.onclick = function(event) {
+    event.preventDefault();
+
+    imgTwo.style.display = 'none';
+    img.style.display = 'inline-block';
+}
